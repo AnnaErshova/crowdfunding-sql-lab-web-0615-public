@@ -1,1 +1,69 @@
--- your code here
+INSERT INTO projects VALUES (1,'Project 1','Exciting Projects',1000,'1 Jan','31 Jan'),
+                            (2,'Project 2','Exciting Projects',2000,'2 Jan','31 Jan'),
+                            (3,'Project 2','Exciting Projects',3000,'3 Jan','31 Jan'),
+                            (4,'Project 2','Exciting Projects',4000,'4 Jan','31 Jan'),
+                            (5,'Project 2','Exciting Projects',5000,'5 Jan','31 Jan'),
+                            (6,'Project 2','Exciting Projects',6000,'6 Jan','31 Jan'),
+                            (7,'Project 2','Exciting Projects',7000,'7 Jan','31 Jan'),
+                            (8,'Project 2','Exciting Projects',8000,'8 Jan','31 Jan'),
+                            (9,'Project 2','Exciting Projects',9000,'9 Jan','31 Jan'),
+                            (10,'Project 2','Exciting Projects',10000,'10 Jan','31 Jan');
+
+
+INSERT INTO users VALUES    (1,'User 1', 20),
+                            (2,'User 2', 20),
+                            (3,'User 3', 20),
+                            (4,'User 4', 20),
+                            (5,'User 5', 20),
+                            (6,'User 6', 20),
+                            (7,'User 7', 20),
+                            (8,'User 8', 20),
+                            (9,'User 9', 20),
+                            (10,'User 10', 20),
+                            (11,'User 11', 20),
+                            (12,'User 12', 20),
+                            (13,'User 13', 20),
+                            (14,'User 14', 20),
+                            (15,'User 15', 20),
+                            (16,'User 16', 20),
+                            (17,'User 17', 20),
+                            (18,'User 18', 20),
+                            (19,'User 19', 20),
+                            (20,'User 20', 20);
+
+INSERT INTO pledges VALUES    
+                                   (1,1000, 1,1),
+                                   (2,1000, 2,2),
+                                   (3,1000, 3,3),
+                                   (4,1000, 4,4),
+                                   (5,1000, 5,1),
+                                   (6,1000, 6,1),
+                                   (7,1000, 1,1),
+                                   (8,1000, 1,1),
+                                   (9,1000, 1,1),
+                                   (10,1000, 1,1),
+                                   (11,1000, 1,1),
+                                   (12,1000, 1,1),
+                                   (13,1000, 1,1),
+                                   (14,1000, 1,1),
+                                   (15,1000, 1,1),
+                                   (16,1000, 1,1),
+                                   (17,1000, 1,1),
+                                   (18,1000, 1,1),
+                                   (19,1000, 1,1),
+                                   (20,1000, 1,1),
+                                   (21,1000, 1,1),
+                                   (22,1000, 1,1),
+                                   (23,1000, 1,1),
+                                   (24,1000, 1,1),
+                                   (25,1000, 1,1),
+                                   (26,1000, 1,1),
+                                   (27,1000, 1,1),
+                                   (28,1000, 1,1),
+                                   (29,1000, 1,1),
+                                   (30,1000, 1,1);
+
+
+
+
+
