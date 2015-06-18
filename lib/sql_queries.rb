@@ -20,11 +20,11 @@ def selects_the_user_name_age_and_pledge_amount_for_all_pledges
 end
 
 def selects_the_titles_of_all_projects_that_have_met_their_funding_goal
-  "SELECT * FROM 
-    (SELECT projects.title, projects.funding_goal - SUM(pledges.amount) AS delta 
+    "SELECT projects.title, projects.funding_goal - SUM(pledges.amount)
       FROM projects INNER JOIN pledges 
         ON pledges.project_id = projects.id 
-          GROUP BY title) WHERE delta <= 0;"
+          GROUP BY title 
+            HAVING SUM(pledges.amount) >= projects.funding_goal;"
   # merges projects and pledges
   # selects both titles and delta from w/funding goal as per rspec -- this should have a different method name....
   # delta is difference between funding goal and amount raised 
